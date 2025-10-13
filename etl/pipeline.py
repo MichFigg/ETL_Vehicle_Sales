@@ -4,10 +4,10 @@ from load import load
 
 import os
 
-# ścieżka do pliku csv
+#csv file path
 filepath = "data/raw/car_prices.csv"
 
-# połączenie do bazy (na razie placeholder)
+
 db_uri = "sqlite:///vehicle_sales.db"
 
 def main():
